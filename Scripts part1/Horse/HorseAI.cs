@@ -742,14 +742,5 @@ namespace Horse
 
         // Animation Events Deprecated !
         public void FootStep(int state) {}
-
-        // gizmos
-        public void OnDrawGizmos()
-        {
-            // Gizmos.color = Color.blue;
-            // Gizmos.DrawLine(transform.position, transform.position + transform.forward);
-            // Gizmos.color = Color.red;
-            // Gizmos.DrawLine(transform.position, transform.position + Vector3.Cross(transform.forward, transform.up));
-        }
     }
 }
